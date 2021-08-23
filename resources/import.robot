@@ -6,4 +6,4 @@ Variables   ../../resources/configs/${env}/env_config.yaml
 
 *** Variables ***
 ${env}    alpha
-${headless}    false
+${headless}    true
