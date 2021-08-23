@@ -1,0 +1,16 @@
+message: Hello World Staging
+
+web-host: https://financial-portal.tmn-dev.com
+
+db-host: acm-fino-db.tmn-dev.com
+db-user: root
+db-password: Welcome1
+
+menu:
+  - Menu 1
+  - Menu 2
+  - Menu 3
+
+user:
+  id: panitan
+  password: P@ssw0rd
