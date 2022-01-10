@@ -1,3 +1,18 @@
+Structures
+```
+project ais_1 - virtualenv(3.7.4)
+    - lib
+    - keywords
+    - requirements.txt
+        - selenium
+        - ssh
+project ais_2 - virtualenv(3.7.4)
+    - lib
+    - keywords
+    - requirements.txt
+        - ssh
+```
+
 Install pyenv to separate python environment each project
 ```
 brew install pyenv

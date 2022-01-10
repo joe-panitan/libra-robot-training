@@ -7,12 +7,13 @@ Test Google Website
     [Tags]    google
     Open Browser    https://www.google.com/    Chrome
     Input Text    //*[@name="q"]    shopee
-#    Press Keys    //*[@name="q"]    ENTER
     Wait Until Element Is Visible    //*[@name="btnK"]
     Click Element    //*[@name="btnK"]
-    Page Should Contain    Shopeesjfhljdksfhsjfkshlf
+    Page Should Contain    Shopee
     Sleep    5s
     [Teardown]    Close Browser
+
+# robot -d result -t "Test Google Website" .
 
 Test Youtube Website
     [Tags]    youtube
@@ -26,3 +27,4 @@ Test Youtube Website
     Sleep    3s
     [Teardown]    Close Browser
 
+# robot -d result -t "Test Youtube Website" .
